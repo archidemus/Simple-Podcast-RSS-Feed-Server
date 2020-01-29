@@ -2,15 +2,15 @@
  
 _menu()
 {
-    echo "Selecciona una opcion:"
+    echo "Options:"
     echo
-    echo "1) Iniciar podcasts"
-    echo "2) Reiniciar podcasts"
-    echo "3) Apagar podcasts"
+    echo "1) Run podcast server"
+    echo "2) Restart podcast server"
+    echo "3) Stop podcast server"
     echo
-    echo "9) Salir"
+    echo "9) Exit"
     echo
-    echo -n "Indica una opcion: "
+    echo -n "Option: "
 }
  
 _initPodcast()
@@ -38,19 +38,18 @@ until [ "$opc" -eq "9" ];
 do
     case $opc in
         1)
-            _initPodcast 5000
+            _initPodcast 5500
             _menu
             ;;
         2)
-            _restartPodcast 5000
+            _restartPodcast 5500
             _menu
             ;;
         3)
-            _killByPID 5000
+            _killByPID 5500
             _menu
             ;;
         *)
-            # Esta opcion se ejecuta si no es ninguna de las anteriores
             clear
             _menu
             ;;

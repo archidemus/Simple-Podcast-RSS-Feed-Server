@@ -1,43 +1,42 @@
 {
     "baseUrl" : "http://52.91.17.211:5000/",
     "podcasts" : {
-        "demus" : {
-            "title": "Demus",
-            "author" : "Demus",
-            "contactEmail" : "inorambuenaa@gmail.com",
-            "contactName" : "Ignacio Norambuena",
-            "description" : "Me ayudo conversando y quizás también a ustedes.",
+        "podcast1" : {
+            "title": "podcast1",
+            "author" : "podcast1",
+            "contactEmail" : "podcast@podcast.com",
+            "contactName" : "Podcaster name",
+            "description" : "podcast1 description",
             "languaje" : "es-cl",
-            "coverFilename" : "demus/demus.png",
-            "rssUrl" : "demus/rss",
-            "audiosFolder" : "demus/audios/",
+            "coverFilename" : "podcast1/podcast1.png",
+            "rssUrl" : "podcast1/rss",
+            "audiosFolder" : "podcast1/audios/",
             "audios" : [
                 {
-                    "title" : "Prueba",
-                    "description" : "Esta es la primera pruba subiendo un podcast",
+                    "title" : "podcast1FirstAudio",
+                    "description" : "podcast1FirstAudioDescription",
                     "date" : "Sat, 25 Jan 2020 19:00:00 -0300",
-                    "filename" : "prueba.mp3",
+                    "filename" : "podcast1FirstAudio.mp3",
                     "length" : "1709274"
                 }
             ]
         },
-        "mcc" : {
-            "title": "Maní con chela",
-            "author" : "Maní con chela",
-            "contactEmail" : "inorambuenaa@gmail.com",
-            "contactName" : "Ignacio Norambuena",
-            "description" : "Conversa con maní y chela",
+        "podcast2" : {
+            "title": "podcast2",
+            "author" : "podcast2",
+            "contactEmail" : "podcaster@podcast.com",
+            "contactName" : "Podcaster name",
+            "description" : "podcast2 description",
             "languaje" : "es-cl",
-            "coverFilename" : "mcc/mcc.png",
-            "coverUrl" : "demus/cover/",
-            "rssUrl" : "mcc/rss",
-            "audiosFolder" : "mcc/audios/",
+            "coverFilename" : "podcast2/podcast2.png",
+            "rssUrl" : "podcast2/rss",
+            "audiosFolder" : "podcast2/audios/",
             "audios" : [
                 {
-                    "title" : "Prueba",
-                    "description" : "Esta es la primera pruba subiendo un podcast",
+                    "title" : "podcast2FirstAudio",
+                    "description" : "podcast2FirstAudioDescription",
                     "date" : "Sat, 25 Jan 2020 19:00:00 -0300",
-                    "filename" : "prueba.mp3",
+                    "filename" : "podcast2FirstAudio.mp3",
                     "length" : "1709274"
                 }
             ]
