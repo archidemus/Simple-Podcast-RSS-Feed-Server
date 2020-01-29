@@ -16,7 +16,7 @@ _menu()
 _initPodcast()
 {
     clear
-    export FLASK_APP=rssServer.py && screen -dm flask run --host=0.0.0.0 --port=$1
+    export FLASK_APP=rssServer.py && screen -dm flask run --host=127.0.0.1 --port=$1
 }
 
 _killByPID()

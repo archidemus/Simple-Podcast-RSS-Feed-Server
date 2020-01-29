@@ -1,5 +1,5 @@
 {
-    "baseUrl" : "http://52.91.17.211:5000/",
+    "baseUrl" : "http://127.0.0.1:5500/",
     "podcasts" : {
         "podcast1" : {
             "title": "podcast1",
