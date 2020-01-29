@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>{{ podcast['title'] }}</title>
+      <itunes:author>{{ podcast['author'] }}</itunes:author>
+      <itunes:owner>
+        <itunes:email>{{ podcast['contactEmail'] }}</itunes:email>
+      </itunes:owner>
+      <description>{{podcast['description']}}</description>
+      <image>
+          <title>{{ podcast['title'] }}</title>
+          <url>{{ baseUrl + podcast['coverFilename'] }}</url>
+          <link>{{ baseUrl + podcast['rssUrl'] }}</link>
+      </image>
+      <language>{{ podcast['languaje'] }}</language>
+      <link>{{ baseUrl + podcast['rssUrl']}}</link>
+      <atom:link href="{{ baseUrl + podcast['rssUrl']}}" rel="self" type="application/rss+xml" />
+      {% for audio in podcast['audios'] %}
+      <item>
+         <title>{{ audio['title'] }}</title>
+         <author>{{ podcast['contactEmail'] }} ({{ podcast['author'] }})</author>
+         <description>{{ audio['description'] }}</description>
+         <pubDate>{{ audio['date'] }}</pubDate>
+         <enclosure url= "{{ baseUrl + podcast['audiosFolder'] + audio['filename'] }}" type="audio/mpeg" length="{{ audio['length'] }}" />
+         <guid isPermaLink="true">{{ baseUrl + podcast['audiosFolder'] + audio['filename'] }}</guid>
+      </item>
+      {% endfor %}
+   </channel>
+</rss>

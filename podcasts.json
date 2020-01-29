@@ -1,0 +1,46 @@
+{
+    "baseUrl" : "http://52.91.17.211:5000/",
+    "podcasts" : {
+        "demus" : {
+            "title": "Demus",
+            "author" : "Demus",
+            "contactEmail" : "inorambuenaa@gmail.com",
+            "contactName" : "Ignacio Norambuena",
+            "description" : "Me ayudo conversando y quizás también a ustedes.",
+            "languaje" : "es-cl",
+            "coverFilename" : "demus/demus.png",
+            "rssUrl" : "demus/rss",
+            "audiosFolder" : "demus/audios/",
+            "audios" : [
+                {
+                    "title" : "Prueba",
+                    "description" : "Esta es la primera pruba subiendo un podcast",
+                    "date" : "Sat, 25 Jan 2020 19:00:00 -0300",
+                    "filename" : "prueba.mp3",
+                    "length" : "1709274"
+                }
+            ]
+        },
+        "mcc" : {
+            "title": "Maní con chela",
+            "author" : "Maní con chela",
+            "contactEmail" : "inorambuenaa@gmail.com",
+            "contactName" : "Ignacio Norambuena",
+            "description" : "Conversa con maní y chela",
+            "languaje" : "es-cl",
+            "coverFilename" : "mcc/mcc.png",
+            "coverUrl" : "demus/cover/",
+            "rssUrl" : "mcc/rss",
+            "audiosFolder" : "mcc/audios/",
+            "audios" : [
+                {
+                    "title" : "Prueba",
+                    "description" : "Esta es la primera pruba subiendo un podcast",
+                    "date" : "Sat, 25 Jan 2020 19:00:00 -0300",
+                    "filename" : "prueba.mp3",
+                    "length" : "1709274"
+                }
+            ]
+        }
+    }
+}
